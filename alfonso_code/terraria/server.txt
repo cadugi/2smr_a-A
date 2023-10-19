@@ -1,0 +1,6 @@
+@echo off
+set "world=NombreDelMundo"
+set "port=7777"
+set "rememberPassword=true"
+
+start "" "C:\Ruta\Al\TModLoader\Server\Launcher.exe" -world "%world%" -port %port% -rememberpassword %rememberPassword%
