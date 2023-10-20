@@ -1,0 +1,1 @@
+words = ["ala", "alas", "avion", "puta", "pato", "pito", "ola", "olas", "barco", "barcos", "aviones", "avioneta", "avionetas", "bola", "bolas", "bolo", "bolos", "nube", "puto"]
