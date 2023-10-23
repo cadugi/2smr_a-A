@@ -1,0 +1,3 @@
+clave_david = "3sc3rp7md5oc8ipqze0wy8jxjitq0s8ztew3di8eyg4omvyqmw2wwm7jxws0iv8x8md8t7xcspzqsasoi"
+clave_fonsi = "kkoydspz4l7i4zu805xkbf46k0cocqpigr0a90mvt13ah6fqjxp2et9684f8bstxku47pjy4p8xlvc2ua"
+clave_adri = "h1vq21483v3a9i6o5x1grjnajl9qt5yfdympamsqs2apnr255lis707sfqjjtge332ktdm01eaghoyrh98"
