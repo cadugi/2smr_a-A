@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Información sobre el Producto</title>
+</head>
+<body>
+
+<h1>Información sobre el Producto</h1>
+
+<h2>Datos Básicos</h2>
+<form>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" placeholder="Nombre del producto" required><br>
+    <br>
+
+    <label for="descripcion">Descripción:</label>
+    <br>
+    <textarea id="descripcion" name="descripcion" rows="4" cols="50" placeholder="Descripción del producto"></textarea><br>
+<br>
+    <label for="foto">Foto:</label>
+    <input type="file" id="foto" name="foto"><br>
+<br>
+    <label for="contador">Contador de Visitas:</label>
+    <input type="checkbox" id="contador" name="contador"> Añadir contador de visitas<br>
+</form>
+
+<h2>Datos Económicos</h2>
+<form>
+    <label for="precio">Precio :</label>
+    <input type="text" id="precio" name="precio" required>€ 
+    <label for="impuestos">Impuestos:</label>
+    <select id="impuestos" name="impuestos">
+        <option value="4%">4%</option>
+        <option value="7%">7%</option>
+        <option value="16%">16%</option>
+        <option value="25%">25%</option>
+    </select><br>
+
+    <label>Promoción:</label><br>
+    <input type="radio" id="promocion-ninguno" name="promocion" value="Ninguno" checked>
+    <label for="promocion-ninguno">Ninguno</label><br>
+
+    <input type="radio" id="promocion-transporte" name="promocion" value="Transporte Gratuito">
+    <label for="promocion-transporte">Transporte Gratuito</label><br>
+
+    <input type="radio" id="promocion-descuento" name="promocion" value="Descuento 5%">
+    <label for="promocion-descuento">Descuento 5%</label><br>
+</form>
+
+</body>
+</html>
