@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario Práctica HTML</title>
+</head>
+<body>
+    <h1>Rellena tu CV</h1>
+<form>
+    <table border="1">
+        <tr>
+            <td colspan="2">Información de Usuario</td>
+        </tr>
+        <tr>
+            <td>Usuario</td>
+            <td><input type="text" name="usuario" size="10" maxlength="20"></td>
+        </tr>
+        <tr>
+            <td>Clave</td>
+            <td><input type="text" name="clave" size="10" maxlength="20"></td>
+        </tr>
+    </table>
+
+    <table border="1">
+        <tr>
+            <td colspan="2">Datos Personales</td>
+        </tr>
+        <tr>
+            <td>Sexo:</td>
+            <td>
+                <input type="radio" id="masculino" name="sexo" value="masculino">
+                <label for="masculino">Masculino</label>
+                <input type="radio" id="femenino" name="sexo" value="femenino">
+                <label for "femenino">Femenino</label>
+                <input type="radio" id="otro" name="sexo" value="otro">
+                <label for="otro">Otro</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Edad:</td>
+            <td>
+                <input type="radio" id="menos_de_20" name="edad" value="menos_de_20">
+                <label for="menos_de_20">Menos de 20 años</label>
+                <input type="radio" id="20_a_34" name="edad" value="20_a_34">
+                <label for="20_a_34">20 a 34 años</label>
+                <input type="radio" id="35_a_65" name="edad" value="35_a_65">
+                <label for="35_a_65">35 a 65 años</label>
+                <input type="radio" id="mas_de_65" name="edad" value="mas_de_65">
+                <label for="mas_de_65">Más de 65 años</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Opciones:</td>
+            <td>
+                <input type="checkbox" id="vivienda_propia" name="opciones" value="vivienda_propia">
+                <label for="vivienda_propia">Posee vivienda propia</label>
+                <input type="checkbox" id="trabaja" name="opciones" value="trabaja">
+                <label for="trabaja">Trabaja</label>
+                <input type="checkbox" id="sabe_jugar_mus" name="opciones" value="sabe_jugar_mus">
+                <label for="sabe_jugar_mus">Sabe jugar al mus</label>
+            </td>
+        </tr>
+    </table>
+
+    <table border="1">
+        <tr>
+            <td>País</td>
+            <td>
+                <select id="pais" name="pais">
+                    <optgroup label="Europa">
+                        <option value="espana">España</option>
+                        <option value="francia">Francia</option>
+                        <option value="alemania">Alemania</option>
+                        <option value="portugal">Portugal</option>
+                        <option value="italia">Italia</option>
+                        <option value="holanda">Holanda</option>
+                    </optgroup>
+                    <optgroup label="Asia">
+                        <option value="japon">Japón</option>
+                        <option value="china">China</option>
+                        <option value="india">India</option>
+                    </optgroup>
+                </select>
+            </td>
+            <td>Color Favorito</td>
+            <td>
+                <select id="color" name="color">
+                    <option value="amarillo">Amarillo</option>
+                    <option value="rojo">Rojo</option>
+                    <option value="azul">Azul</option>
+                    <option value="verde">Verde</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+
+    <table border="1">
+        <tr>
+            <td>Comentarios:</td>
+            <td><textarea name="comentarios" rows="6" cols="40" placeholder="Ponga aquí sus comentarios"></textarea></td>
+        </tr>
+    </table>
+
+    <br>
+    <button type="submit" formaction="https://www.google.com/">ENVIAR</button>
+    <button type="button" onclick="alert('No hace nada')">NADA</button>
+    <button type="reset">RESETEAR</button>
+</form>
+</body>
+</html>
