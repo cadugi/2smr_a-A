@@ -1,3 +1,3 @@
 # 2smr_a-A
 
-![horario](horario.png)
+![horario](image.png)
