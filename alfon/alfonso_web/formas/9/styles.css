@@ -1,0 +1,18 @@
+/* Estilos para los párrafos generales */
+.divuno {
+font-family: Verdana;
+border-color: black;
+border-style: dotted;
+background-color: white;
+color: black;
+}
+
+/* Estilos para el párrafo especial */
+div {
+    margin: 30px;
+    padding: 25px;
+    background-color: green;
+    border: 5px double orange;
+    color: yellow;
+
+}

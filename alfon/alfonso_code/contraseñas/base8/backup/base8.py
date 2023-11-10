@@ -196,7 +196,12 @@ def main():
     app = QApplication([])
     window = PasswordManagerUI()
     window.show()
-    app.exec_()
+    
+
 
 if __name__ == '__main__':
-    main()
+    app = QApplication([])
+    window = PasswordManagerUI()
+    window.show()
+    app.exec_()
+

@@ -27,4 +27,4 @@ letra = [
 for linea in letra:
     pyautogui.write(linea)
     pyautogui.press('enter')  # Presiona enter para enviar la línea
-    time.sleep(1)  # Espera 5 segundos antes de la próxima línea
+    time.sleep(5)  # Espera 5 segundos antes de la próxima línea

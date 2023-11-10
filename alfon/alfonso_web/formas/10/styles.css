@@ -1,0 +1,18 @@
+body {
+    font-family: 'Courier New', monospace;
+    border: 5px dotted;
+    margin: 0;
+    padding: 0;
+}
+
+
+main {
+    display: flex;
+    align-items: center;
+}
+
+
+
+p {
+    font-family: 'Courier New', monospace;
+}
