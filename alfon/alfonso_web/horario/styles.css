@@ -1,0 +1,66 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .fondo {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .border th, .border td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Colores para asignaturas */
+  .ubuntu {
+    background-color: #3498db; /* Azul */
+    color: #fff;
+  }
+  
+  .seguridad-informatica {
+    background-color: #e91e63; /* Rosa */
+    color: #fff;
+  }
+  
+  .aplicaciones-web {
+    background-color: #4caf50; /* Verde */
+    color: #fff;
+  }
+  
+  .sistemas-operativos-en-red {
+    background-color: #ffeb3b; /* Amarillo */
+  }
+  
+  .recreo {
+    background-color: #ccc; /* Gris */
+  }
+  
+  .sistemas-en-red {
+    background-color: #ff5722; /* Rojo */
+    color: #fff;
+  }
+  
+  .empresa {
+    background-color: #607d8b; /* Gris Azul */
+    color: #fff;
+  }
+  
+  .ingles {
+    background-color: #87cefa; /* Azul Claro */
+  }
+  
+  .hora {
+    background-color: white;
+  }
+
+  .dia {
+    background-color: white;
+  }
