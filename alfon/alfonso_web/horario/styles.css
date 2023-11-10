@@ -2,59 +2,65 @@
 
 body {
     font-family: Arial, sans-serif;
+    border: red solid 3px;
   }
   
   .fondo {
-    background-color: #f4f4f4;
+    background-color: #000000;
     padding: 20px;
     text-align: center;
   }
+
+  .nombres {
+    color: white;
+    font-size: large;
+    text-align: left;
+  }
   
-  .border th, .border td {
-    border: 1px solid #ddd;
-    padding: 8px;
+  .border{
+    border: 5px solid #ffffff;
   }
   
   th {
-    background-color: #f2f2f2;
+    border: white solid 1px;
   }
   
-  /* Colores para asignaturas */
+  
   .ubuntu {
-    background-color: #3498db; /* Azul */
+    background-color: #3498db; 
     color: #fff;
   }
   
   .seguridad-informatica {
-    background-color: #e91e63; /* Rosa */
+    background-color: #e91e63; 
     color: #fff;
   }
   
   .aplicaciones-web {
-    background-color: #4caf50; /* Verde */
+    background-color: #4caf50; 
     color: #fff;
   }
   
   .sistemas-operativos-en-red {
-    background-color: #ffeb3b; /* Amarillo */
+    background-color: #ffeb3b; 
   }
   
   .recreo {
-    background-color: #ccc; /* Gris */
+    background-color: #ccc; 
   }
   
   .sistemas-en-red {
-    background-color: #ff5722; /* Rojo */
+    background-color: #ff5722; 
     color: #fff;
   }
   
   .empresa {
-    background-color: #607d8b; /* Gris Azul */
+    background-color: #607d8b; 
     color: #fff;
   }
   
   .ingles {
-    background-color: #87cefa; /* Azul Claro */
+    background-color: #87cefa; 
   }
   
   .hora {
