@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 from claves import clave_adri, clave_david, clave_fonsi
 LETRAS = ("ABCDEFGHIJKLMNÑOPQRSTUVWXYZ")
-
 def main():
     mensaje=input("Mensaje: ")
     myKey=input("Clave deseada: (1/2/3)  ")
@@ -54,7 +53,6 @@ def traductor_mensaje(clave,mensa,accion):
         else:
             traducido.append(symbol)
     return ('').join(traducido)
-
 if __name__ == '__main__':
     main()
 input()
