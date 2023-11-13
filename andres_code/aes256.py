@@ -19,7 +19,7 @@ def descifrar(datos_cifrados, clave):
 # Ejemplo de uso
 if __name__ == "__main__":
     clave = generar_clave()
-    datos_a_cifrar = "Alfonso, te paso el bocadillo?"
+    datos_a_cifrar = "gAAAAABlNkHCO24uhmyoRsO8Dt1OR3EM2rnXFuO1I47Y1MfMv0co_rTVcTTpno7F1avj0zzc1BHejIDoVdNhSprVakQlY5C1kg=="
 
     datos_cifrados = cifrar(datos_a_cifrar, clave)
     print(f"Datos cifrados: {datos_cifrados}")

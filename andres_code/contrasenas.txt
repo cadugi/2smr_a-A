@@ -1,0 +1,15 @@
+Usuario/Correo: andresito
+Contraseña cifrada: b'gAAAAABlN529OS4gatUDOJTARQQq_s7TCpOXgto3t3JzmusW5FB7yvUY5OGiP85I4a6yTqcX1iEhrt9ytvTBWrOmn783pxi79cgIEXtoHw9zeiYzZt43EYR0DtuIyheM1NJPpeN3LWQL9oy6j1XLcqE2hoO4n9B2Sm8h_reSoG4FZh10e9IFJYE='
+
+Usuario/Correo: as
+Contraseña cifrada: ;'#27<1*\1$][>93/<%`=??\7`>%15`?9_]'%7%,'&-/#~%_3@{@;+<,96}9
+
+Usuario/Correo: grd
+Contraseña cifrada: None
+
+Usuario/Correo: dsfgfdg
+Contraseña cifrada: None
+
+Usuario/Correo: ht
+Contraseña cifrada: None
+
