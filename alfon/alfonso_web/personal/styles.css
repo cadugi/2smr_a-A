@@ -1,0 +1,91 @@
+* {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  color: black;
+}
+
+h1 {
+  color: #272727;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.header {
+  background-color: #ffffff;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.menu {
+  background-color: #efefef;
+  color: #000000;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  border-right: 2px solid #000;
+  box-shadow: #000 2px 2px 5px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+}
+
+.menu a {
+  color: #000000;
+  text-decoration: none;
+  margin-bottom: 10px;
+  border: 3px solid #000000;
+  padding: 5px;
+}
+
+.menu a:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+#contenedor {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.login-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 400px;
+}
+
+.hijo a {
+  text-decoration: none;
+  justify-content: space-between;
+  padding: 10px 100px;
+  border: 2px solid #000;
+  border-radius: 6px;
+  font-size: 32px;
+  margin: 15px;
+}
+
+.hijo a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+img {
+  width: 300px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}

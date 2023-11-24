@@ -1,0 +1,62 @@
+* {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: black;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+button {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+#listaArchivos {
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+h1 {
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+#subirButton {
+    margin-right: 117px;
+    margin-bottom: 00px;
+}
+
+.menu {
+    background-color: #efefef;
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    border-right: 2px solid #000;
+    box-shadow: #000 2px 2px 5px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+  }
+  
+  .menu a {
+    color: #000000;
+    text-decoration: none;
+    margin-bottom: 10px;
+    border: 3px solid #000000;
+    padding: 5px;
+  }
+  
+  .menu a:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+  }

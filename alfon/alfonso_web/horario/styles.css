@@ -25,6 +25,14 @@ body {
     border: white solid 1px;
   }
   
+/* Añade borde estilo dibujos animados solo a la tabla de asignaturas */
+.table1 {
+  border: 5px solid #ffffff;
+  border-radius: 10px; /* Añade borde redondeado */
+  padding: 10px; /* Añade espacio interno */
+  margin: 10px; /* Añade margen */
+}
+  
   
   .ubuntu {
     background-color: #3498db; 

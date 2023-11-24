@@ -1,0 +1,138 @@
+
+*{
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  color: black;
+  overflow: hidden;
+}
+
+
+.center2 {
+  height: 80vh;
+  display: grid;
+  justify-content: center;
+}
+
+
+  h1 { 
+    color: #272727; 
+    text-align: center; 
+    padding: 20px; 
+    margin-bottom: 20px; 
+  } 
+
+
+
+tr{
+  border: #000 solid;
+}
+
+
+
+td {
+  border: #000 solid;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+  body { 
+          font-family: Arial, sans-serif; 
+          margin: 0; 
+          padding: 0; 
+          background-color: #ffffff;
+          
+      } 
+      .header { 
+          background-color: #cfcfcf; 
+          color: #fff; 
+          padding: 10px; 
+          text-align: center; 
+      } 
+
+      .menu {
+        background-color: #efefef;
+        color: #000000;
+        padding: 10px;
+        text-align: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        border-right: 2px solid #000;
+        box-shadow: #000 2px 2px 5px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 6px;
+      }
+      
+      .menu a {
+        color: #000000;
+        text-decoration: none;
+        margin-bottom: 10px;
+        border: 3px solid #000000;
+        padding: 5px;
+      }
+      
+      .menu a:hover {
+        background-color: rgb(255, 255, 255);
+        color: black;
+      }
+
+      .table td:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white; /* Cambia el color del texto según sea necesario */
+}
+
+.table {
+  border-collapse: collapse;
+}
+.td {
+  border: 1px solid black;
+}
+.border2 {
+  border: 5px solid #000;
+  border-radius: 10px;
+  align-content: center;
+  width: 300px;
+  height: 300px;
+}
+.center {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border: 3px solid black;
+}
+.slide-up {
+  position: relative;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  opacity: 1; 
+}
+
+.slide-up:hover {
+  transform: translateY(-20%);
+  opacity: 0.4;
+}
+
+.slide-up:hover + .hover-image {
+  opacity: 1;
+  position: relative;
+  top: 0;
+  left: 0;
+  transform: translateY(0);
+}
+.subp {
+position: absolute;
+bottom: 0;
+right: 0;
+margin: 10px;
+opacity: 0.6;
+}
+.logoty {
+  height: 100px;
+  text-align: right;
+  position: relative;
+  opacity: 0.4;
+}
+
+table td:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+}

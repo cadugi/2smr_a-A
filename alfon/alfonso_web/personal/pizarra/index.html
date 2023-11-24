@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Pizarra Interactiva</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="../images/icon2.ico">
+</head>
+<body>
+    <div class="salir">
+        <button onclick="volverAlIndex()">Volver  ↩️</button>
+    </div>
+
+    <div class="tools">
+        <button id="pincel">Pincel  🖌️</button>
+        <button id="goma">Goma de Borrar  🩹</button>
+        <button id="borrarTodo">Borrar Todo  🗑️</button>
+        <button id="descargarSVG">Descargar  📸</button>
+        <input type="range" id="grosor" min="1" max="100" value="5">
+        
+    </div>
+    <canvas id="pizarra" width="1890" height="875"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>

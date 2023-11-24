@@ -1,0 +1,65 @@
+* {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+
+body#pizarra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.tools {
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    z-index: 1;
+    border: black 3px dashed;
+    border-radius: 10px;
+    background-color: rgb(155, 155, 155);
+    padding: 8px;
+    width: 430px;
+}
+
+#pizarra {
+    border: 7px solid black;
+    cursor: crosshair;
+}
+
+.salir {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+    color: black;
+    border: black 5px solid;
+    background-color: rgb(155, 155, 155);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+body {
+    background-color: rgb(194, 194, 194);
+}
+
+canvas {
+    background-color: #ffffff;
+}
+
+input[type="range"] {
+    -webkit-appearance: none; /* Quitar el estilo por defecto en algunos navegadores webkit */
+    width: 100%; 
+    height: 5px; 
+    background: black; 
+    outline: none; 
+    opacity: 0.5; 
+    -webkit-transition: .2s; 
+    transition: opacity .2s;
+}
+
+input[type="range"]:hover {
+    opacity: 1; 
+}

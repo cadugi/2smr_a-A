@@ -1,0 +1,127 @@
+body {
+  font-family: Arial, sans-serif;
+  border: red solid 3px;
+}
+
+
+
+
+.fondo {
+  background-color: #000000;
+  padding: 20px;
+  text-align: center;
+}
+
+.nombres {
+  color: white;
+  font-size: large;
+  right: 10%;
+  font-family: times new roman;
+  font-size: 30px;
+}
+
+.border {
+  border: 5px solid #ffffff;
+  border-radius: 5px;
+}
+
+th {
+  border: white solid 1px;
+}
+
+.ubuntu {
+  background-color: #3498db;
+  color: black;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.seguridad-informatica {
+  background-color: #e91e63;
+  color: black;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.aplicaciones-web {
+  background-color: #4caf50;
+  color: black;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.sistemas-operativos-en-red {
+  background-color: #f7df09;
+  padding: 40px;
+  color: black;
+  border-radius: 10px;
+}
+
+.recreo {
+  background-color: #ccc;
+  padding: 40px;
+  color: #000000;
+  border-radius: 10px;
+}
+
+.sistemas-en-red {
+  background-color: #ff5722;
+  color: black;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.empresa {
+  background-color: #607d8b;
+  color: black;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.ingles {
+  background-color: #87cefa;
+  color: black;
+  border-radius: 10px;
+}
+
+.hora {
+  background-color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.dia {
+  background-color: white;
+}
+
+.ubuntu:hover,
+.seguridad-informatica:hover,
+.aplicaciones-web:hover,
+.sistemas-operativos-en-red:hover,
+.recreo:hover,
+.sistemas-en-red:hover,
+.empresa:hover,
+.ingles:hover {
+  background-color: #797979;
+  color: rgb(255, 255, 255);
+
+}
+
+td:not(.hora):not(.dia):hover {
+  background-color: rgba(0, 0, 0, 0.1);
+
+}
+
+a {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(56, 56, 56);
+}
+
+
+
+td a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  color: inherit;
+}

@@ -1,0 +1,81 @@
+* {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 40px;
+    overflow: hidden;
+    
+}
+
+body {
+    background: url('../images/fondo3.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    overflow: hidden;
+}
+
+.center2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.menu {
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu a {
+    color: #000000;
+    text-decoration: none;
+    margin-bottom: 10px;
+    border: 3px solid #000000;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 30px;
+    position: relative;
+    transition: background-color 0.3s, color 0.3s;
+    filter: grayscale(100%);
+    padding: 15px;
+}
+
+.menu a span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px; 
+    height: 50px; 
+    border: 3px solid #000000;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.menu a:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: black;
+    filter: grayscale(0%);
+}
+
+.menu a:hover span {
+    animation: elevateIcon 0.7s ease-out;
+
+}
+
+
+
+
+@keyframes elevateIcon {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}

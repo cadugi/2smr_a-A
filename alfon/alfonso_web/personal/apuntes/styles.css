@@ -1,0 +1,101 @@
+* {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: black;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+table {
+    border: 5px solid black;
+    margin-top: 20px; /* Agregado para dar espacio entre el título y la tabla */
+}
+
+td {
+    border: 1px solid gray;
+}
+
+th {
+    border: 2px black solid;
+}
+
+.asignatura {
+    padding: 5px;
+}
+
+input {
+    width: 40px;
+    padding: 7px;
+}
+
+.tittle1 {
+    font-size: 44px;
+}
+
+.guardar-btn {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.guardar-btn {
+    position: absolute;
+    top: 40px;
+    right: 343px;
+    z-index: 1;
+    border: black 3px dashed;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 8px;
+    width: auto;
+    font-size: 50px;
+}
+
+.guardar-pdf-btn {
+    position: absolute;
+    top: 120px;
+    right: 60px;
+    z-index: 1;
+    border: black 3px dashed;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 8px;
+    width: auto;
+    font-size: 50px;
+}
+
+.menu {
+    background-color: #efefef;
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    border-right: 2px solid #000;
+    box-shadow: #000 2px 2px 5px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+  }
+  
+  .menu a {
+    color: #000000;
+    text-decoration: none;
+    margin-bottom: 10px;
+    border: 3px solid #000000;
+    padding: 5px;
+  }
+  
+  .menu a:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+  }
+
