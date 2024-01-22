@@ -1,0 +1,1 @@
+result = confirm ('¿DESEAS SEGUIR COMPRANDO?') ;
